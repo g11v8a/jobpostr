@@ -11,12 +11,15 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 7. Lucid ORM
 8. Migrations and seeds
 
-## Setup
+## Installation / Setup
 
 Use the adonis command to install the blueprint
 
 ```bash
-adonis new yardstick
+> npm i --global @adonisjs/cli
+> adonis new jobpostr
+> cd jobpostr
+> adonis serve --dev
 ```
 
 or manually clone the repo and then run `npm install`.
